@@ -1,0 +1,12 @@
+{
+  "name": "aashish/dummy-plugin",
+  "description": "WordPress Dummy Plugin",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "autoload": {
+    "psr-4": {
+      "DummyPlugin\\": "./inc/"
+    }
+  }, 
+  "require": {}
+}
